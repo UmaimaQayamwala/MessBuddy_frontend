@@ -28,7 +28,8 @@ function App() {
   useEffect(() => {
     async function fetchUser() {
       if(token) {
-        const getUser = await axios.get("http://localhost:5000/api/users/getUser", { headers: { Authorization: `Bearer ${token}` } });
+        // const getUser = await axios.get("http://localhost:5000/api/users/getUser", { headers: { Authorization: `Bearer ${token}` } });
+        const getUser = await axios.get("https://messbuddy-backend.onrender.com/api/users/getUser", { headers: { Authorization: `Bearer ${token}` } });
 
         if(getUser.data.success === true) {
           setCurrentUser(getUser.data.user.username);

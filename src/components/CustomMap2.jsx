@@ -52,10 +52,11 @@ const CustomMap = ({ currentUser }) => {
   useEffect(() => {
     const getPins = async () => {
       try {
-        // const res = await axios.get("https://messdekho.onrender.com/api/pins");
+   
 
         // i comment
-        const res = await axios.get("http://localhost:5000/api/pins");
+        // const res = await axios.get("http://localhost:5000/api/pins/");
+        const res = await axios.get("https://messbuddy-backend.onrender.com/api/pins/");
         setPins(res.data);
        
       } catch (error) {

@@ -19,8 +19,9 @@ export default function Login({setShowLogin, setCurrentUser, setToken}) {
         }
 
         try {
-            // const res = await axios.post("https://messdekho.onrender.com/api/users/login", user);
-            const res = await axios.post("http://localhost:5000/api/users/login", user);
+
+            // const res = await axios.post("http://localhost:5000/api/users/login", user);
+            const res = await axios.post("https://messbuddy-backend.onrender.com/api/users/login", user);
 
             localStorage.setItem("token", res.data.token);
             setCurrentUser(res.data.username);
