@@ -76,17 +76,6 @@ body {
 /* Responsive changes */
 @media (max-width: 768px) {
 
-      /* .login{
-        position: relative;
-        margin-right: 250px;
-     }
-  .register {
-    font-size: 0.85rem;
-    padding: 4px 8px;
-    margin: 4px 0;
-    width: 100px;
-    text-align: center;
-  } */
   .text {
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
@@ -107,20 +96,12 @@ body {
 
      .login{
         position: relative;
-        /* margin-right: 250px; */
-        /* margin-top: 200px; */
+     
      }
   .register {
-     /* position: relative;
-    font-size: 0.85rem;
-    padding: 4px 8px;
-    /* margin: 4px 0; */
-    /* margin-left: 250px;
-  
-    text-align: center; */ 
+    
      position: relative;
-        /* margin-right: 250px; */
-        /* margin-top: 200px; */
+       
   }
   .navbar {
     flex-direction: column;
