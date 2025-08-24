@@ -37,7 +37,7 @@ export default function Register({ setShowRegister }) {
     <div className="registerContainer">
       <div className="registerLogo">
         <RoomIcon />
-        MessDekho
+        MessBuddy
       </div>
       <form onSubmit={handelSubmit}>
         <input
